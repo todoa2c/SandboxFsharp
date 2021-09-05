@@ -1,0 +1,78 @@
+[<Literal>]
+let SampleResponseJSON =
+    """{
+    "kind": "youtube#commentThreadListResponse",
+    "etag": "8EaMPo-lG03-8l9UzskU5Y8RFsk",
+    "nextPageToken": "QURTSl9pMC1CSXdjSnhIVFhRRmpqQjF4VGszOFd0bC11MHFLYnpJcGRxxxxx",
+    "pageInfo": {
+        "totalResults": 2,
+        "resultsPerPage": 2
+    },
+    "items": [
+        {
+            "kind": "youtube#commentThread",
+            "etag": "_0csl03Geat7KflvUfH-_ysQFZk",
+            "id": "UgyJkyCtrqOxHKChZv54AaABAg",
+            "snippet": {
+                "videoId": "utbzRfPnHgM",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "SRcWaUJg9oFuRJ3vHPdxon-0HlI",
+                    "id": "UgyJkyCtrqOxHKChZv54AaABAg",
+                    "snippet": {
+                        "videoId": "utbzRfPnHgM",
+                        "textDisplay": "全然コメント見つからないけど、\nJust a Friend大好き！！！！",
+                        "textOriginal": "全然コメント見つからないけど、\nJust a Friend大好き！！！！",
+                        "authorDisplayName": "xxxx",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLTJiYJcBxTNMrv0egIdoxxxxx",
+                        "authorChannelUrl": "http://www.youtube.com/channel/xxxxx",
+                        "authorChannelId": {
+                            "value": "xxxxx"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 1074,
+                        "publishedAt": "2020-07-07T09:38:05Z",
+                        "updatedAt": "2020-07-18T06:54:14Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 25,
+                "isPublic": true
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "Xh6iiiJF2tx-WfpdMO58AcnlI58",
+            "id": "UgxIbI2DxEkglg-d0HV4AaABAg",
+            "snippet": {
+                "videoId": "utbzRfPnHgM",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "_7iLjbZNXgaaazpepL4pOF0N8VQ",
+                    "id": "UgxIbI2DxEkglg-d0HV4AaABAg",
+                    "snippet": {
+                        "videoId": "utbzRfPnHgM",
+                        "textDisplay": "Ozは本当に聞いてほしい！！！\n最後の方の\n「涙できる心があるじゃない\n　絞り出せる知恵があるじゃない\n　立ち向かえる勇気があるじゃない\n　自分の中にすでにあったじゃない\n　　魔法みたいじゃない」\nはほんとに沁みます",
+                        "textOriginal": "Ozは本当に聞いてほしい！！！\n最後の方の\n「涙できる心があるじゃない\n　絞り出せる知恵があるじゃない\n　立ち向かえる勇気があるじゃない\n　自分の中にすでにあったじゃない\n　　魔法みたいじゃない」\nはほんとに沁みます",
+                        "authorDisplayName": "べんxxxxx",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLTeQxxxxx",
+                        "authorChannelUrl": "http://www.youtube.com/channel/UCxZmI_xxxxx",
+                        "authorChannelId": {
+                            "value": "UCxZmI_xxxxx"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 50,
+                        "publishedAt": "2020-07-15T13:18:22Z",
+                        "updatedAt": "2020-07-15T13:18:40Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 0,
+                "isPublic": true
+            }
+        }
+    ]
+}
+"""
