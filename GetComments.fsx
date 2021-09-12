@@ -1,10 +1,8 @@
 #r "nuget: FSharp.Data, 4.2.2"
 #load "CommentCsv.fsx"
-#load "SampleResponse.fsx"
 
 open FSharp.Data
 open CommentCsv
-open SampleResponse
 
 let url =
     "https://www.googleapis.com/youtube/v3/commentThreads"
@@ -17,7 +15,7 @@ let videoID = "utbzRfPnHgM"
 let providerURL =
     $"{url}?key={apiKey}&part=snippet&videoId={videoID}&order=relevance&textFormat=plaintext&maxResults=100"
 
-type Comments = JsonProvider<SampleResponseJSON>
+type Comments = JsonProvider<"sampleResponse.json", ResolutionFolder=__SOURCE_DIRECTORY__>
 
 let rec getAllComments nextToken =
     let nextTokenParam =

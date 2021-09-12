@@ -1,6 +1,4 @@
-[<Literal>]
-let SampleResponseJSON =
-    """{
+{
     "kind": "youtube#commentThreadListResponse",
     "etag": "8EaMPo-lG03-8l9UzskU5Y8RFsk",
     "nextPageToken": "QURTSl9pMC1CSXdjSnhIVFhRRmpqQjF4VGszOFd0bC11MHFLYnpJcGRxxxxx",
@@ -75,4 +73,3 @@ let SampleResponseJSON =
         }
     ]
 }
-"""
